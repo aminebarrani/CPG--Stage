@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestion des Employés - CPG | Compagnie des Phosphates de Gafsa</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestion des Employés - CPG | Compagnie des Phosphates de Gafsa | Connectez-vous</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="loader">
+        <img src="file:///C:/Users/toshiba/Downloads/CPG_logo.svg.svg" /></div>
+    <header>
+	
+        <h1>Gestion des Employés - CPG | Compagnie des Phosphates de Gafsa</h1>
+	
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Employés</a></li>
+            <li><a href="#">Départements</a></li>
+            <li><a href="#">Rapports</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Bienvenue dans le système de gestion des employés de CPG</h2>
+            <p>Utilisez ce système pour gérer les informations des employés, les départements et générer des rapports.</p>
+        </section>
+<section id="connexion">
+    <h2>Connectez-vous</h2>
+    <form>
+        <label for="prenom">Prénom de l'employé :</label>
+        <input type="text" id="prenom" name="prenom" required>
+        <br>
+        <label for="username">Nom de l'employé :</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">identifiant :</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Se connecter">
+    </form>
+</section>
+
+            <h2 id="nombre-employes">Nombre d'employés ajoutés</h2>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 CPG. Tous droits réservés.</p>
+    </footer>
+    <script>
+        // Exemple de code JavaScript pour mettre à jour le nombre d'employés ajoutés
+        var nombreEmployes = 0; // Remplacez cela par le nombre réel d'employés ajoutés
+
+        // Sélectionner l'élément <h2> par son id
+        var h2NombreEmployes = document.getElementById("nombre-employes");
+
+        // Mettre à jour le contenu de l'élément <h2> avec le nombre d'employés ajoutés
+        h2NombreEmployes.innerHTML = "Nombre d'employés ajoutés : " + nombreEmployes;
+    </script>
+</body>
+</html>

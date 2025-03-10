@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Création de compte administrateur</title>
+    <link rel="stylesheet" type="text/css" href="acc.css">
+</head>
+<body>
+    <header>
+        <h1>Création de compte administrateur</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Créer un nouveau compte</h2>
+            <form id="create-account-form">
+                <label for="username">Nom d'utilisateur:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <label for="confirm-password">Confirmer le mot de passe:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                <br>
+                <input type="submit" value="Créer le compte">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 CPG. Tous droits réservés.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

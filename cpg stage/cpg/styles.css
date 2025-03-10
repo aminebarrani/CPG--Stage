@@ -1,0 +1,144 @@
+/* Réinitialisation des styles par défaut */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+nav {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}/* Styles pour la section de connexion */
+section#connexion {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+section#connexion h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section#connexion form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#connexion label {
+    margin-bottom: 5px;
+}
+
+section#connexion input[type="text"],
+section#connexion input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+section#connexion input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#connexion input[type="submit"]:hover {
+    background-color: #555;
+}
+.loader img{
+    height : 320px;
+    width : 320px;
+    animation: spinlogo 2s linear infinite;
+}
+@keyframes spinloader {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@keyframes spinlogo {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
